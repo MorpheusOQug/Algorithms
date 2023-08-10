@@ -20,10 +20,10 @@
     
      - __Sắp xếp nhanh (Quick sort):__  
     - Thuật toán phân chia và trị này là thuật toán sắp xếp được sử dụng thường xuyên nhất được đề cập trong bài viết này. Khi được định cấu hình chính xác, nó cực kỳ hiệu quả và không yêu cầu sử dụng merge sort. Chúng tôi phân vùng danh sách xung quanh một phần tử trục, sắp xếp các giá trị xung quanh trục.  
-    - Độ phức tạp thời gian: O (n)  
-      + Quick Sort được sử dụng rất nhiều vì độ phức tạp thời gian trung bình nhanh hơn nhiều. Trong khi hàm phân vùng sử dụng các vòng lặp lồng nhau trong khi các vòng lặp, nó sẽ so sánh trên tất cả các phần tử của mảng để thực hiện các giao dịch hoán đổi của nó.   
-      + Trường hợp xấu nhất: O (n^2). Khi phần tử nhỏ nhất hoặc lớn nhất luôn được chọn làm trục. Điều này sẽ tạo các phân vùng có kích thước n-1, gây ra các cuộc gọi đệ quy n-1 lần.
-      + Độ phức tạp trung bình: O (nlog(n)). Với một trục tốt, chức năng Quick Sort sẽ phân vùng mảng thành một nửa, phát triển logarit với n.  
+    - Độ phức tạp thời gian: O (n).  
+       + Quick Sort được sử dụng rất nhiều vì độ phức tạp thời gian trung bình nhanh hơn nhiều. Trong khi hàm phân vùng sử dụng các vòng lặp lồng nhau trong khi các vòng lặp, nó sẽ so sánh trên tất cả các phần tử của mảng để thực hiện các giao dịch hoán đổi của nó.   
+       + Trường hợp xấu nhất: O (n^2). Khi phần tử nhỏ nhất hoặc lớn nhất luôn được chọn làm trục. Điều này sẽ tạo các phân vùng có kích thước n-1, gây ra các cuộc gọi đệ quy n-1 lần.
+       + Độ phức tạp trung bình: O (nlog(n)). Với một trục tốt, chức năng Quick Sort sẽ phân vùng mảng thành một nửa, phát triển logarit với n.  
 
      - __Sắp xếp trộn (Merge sort):__  
     - Thuật toán phân chia và trị này chia một danh sách thành một nửa và tiếp tục chia danh sách cho 2 cho đến khi nó chỉ có các phần tử số ít. Các phần tử liền kề trở thành các cặp được sắp xếp, sau đó các cặp được sắp xếp cũng được merge và sắp xếp với các cặp khác. Quá trình này tiếp tục cho đến khi chúng ta nhận được một danh sách được sắp xếp với tất cả các yếu tố của danh sách đầu vào chưa được sắp xếp.  
