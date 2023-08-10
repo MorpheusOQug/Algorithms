@@ -13,7 +13,7 @@
     
      - __Sắp xếp nhanh (Quick sort):__  
 
-     - __Sắp xếp trộn (Merge sort):__
+     - __Sắp xếp trộn (Merge sort):__  
     
   2. Tìm kiếm (Searching)
      - Tìm kiếm tuần tự (Linear search)
