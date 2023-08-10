@@ -2,7 +2,10 @@
  
 7 thuật toán IT nên cần phải biết
   1. Sắp xếp (Sorting)
-     - Sắp xếp nổi bọt (Bubble sort)
+     - Sắp xếp nổi bọt (Bubble sort): 
+     Thuật toán sắp xếp đơn giản lặp lại qua một danh sách, so sánh các phần tử theo cặp và hoán đổi chúng cho đến khi các phần tử lớn hơn "nổi bong bóng" đến cuối danh sách và các phần tử nhỏ hơn nằm ở "dưới cùng". 
+     Độ phức tạp thời gian: O (n^2). Trong trường hợp xấu nhất (khi danh sách theo thứ tự ngược lại), thuật toán này sẽ phải hoán đổi mọi item của mảng. flag swapper của chúng ta sẽ được đặt thành true trên mỗi lần lặp. Do đó, nếu chúng ta có n phần tử trong danh sách của mình, chúng ta sẽ có n lần lặp trong mỗi mục.
+     
      - Sắp xếp chèn (Insertion sort)
      - Sắp xếp chọn (Selection sort)
      - Sắp xếp nhanh (Quick sort)
