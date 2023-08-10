@@ -2,14 +2,19 @@
  
 7 thuật toán IT nên cần phải biết
   1. Sắp xếp (Sorting)
-     - Sắp xếp nổi bọt (Bubble sort): 
-    -Thuật toán sắp xếp đơn giản lặp lại qua một danh sách, so sánh các phần tử theo cặp và hoán đổi chúng cho đến khi các phần tử lớn hơn "nổi bong bóng" đến cuối danh sách và các phần tử nhỏ hơn nằm ở "dưới cùng". 
-    -Độ phức tạp thời gian: O (n^2). Trong trường hợp xấu nhất (khi danh sách theo thứ tự ngược lại), thuật toán này sẽ phải hoán đổi mọi item của mảng. flag swapper của chúng ta sẽ được đặt thành true trên mỗi lần lặp. Do đó, nếu chúng ta có n phần tử trong danh sách của mình, chúng ta sẽ có n lần lặp trong mỗi mục.
+     - __Sắp xếp nổi bọt (Bubble sort):__  
+    - Thuật toán sắp xếp đơn giản lặp lại qua một danh sách, so sánh các phần tử theo cặp và hoán đổi chúng cho đến khi các phần tử lớn hơn "nổi bong bóng" đến cuối danh sách và các phần tử nhỏ hơn nằm ở "dưới cùng".  
+    - Độ phức tạp thời gian: O (n^2). Trong trường hợp xấu nhất (khi danh sách theo thứ tự ngược lại), thuật toán này sẽ phải hoán đổi mọi item của mảng. flag swapper của chúng ta sẽ được đặt thành true trên mỗi lần lặp. Do đó, nếu chúng ta có n phần tử trong danh sách của mình, chúng ta sẽ có n lần lặp trong mỗi mục. 
      
-     - Sắp xếp chèn (Insertion sort)
-     - Sắp xếp chọn (Selection sort)
-     - Sắp xếp nhanh (Quick sort)
-     - Sắp xếp trộn (Merge sort)
+     - __Sắp xếp chèn (Insertion sort):__  
+     - __Sắp xếp chọn (Selection sort):__  
+    - Thuật toán này phân chia danh sách thành hai phần: được sắp xếp và chưa được sắp xếp. Chúng ta liên tục xóa phần tử nhỏ nhất của phân đoạn chưa sắp xếp của danh sách và nối nó vào phân đoạn sắp xếp.  
+    - Độ phức tạp thời gian: O (n^2). Đối với một danh sách có n phần tử, vòng lặp ngoài lặp lại n lần. Vòng lặp bên trong lặp lại n-1 khi i bằng 1, và sau đó n-2 vì j bằng 2 và cứ thế. Số lượng so sánh là (n-1)+(n-2)+...+1.
+    
+     - __Sắp xếp nhanh (Quick sort):__  
+
+     - __Sắp xếp trộn (Merge sort):__
+    
   2. Tìm kiếm (Searching)
      - Tìm kiếm tuần tự (Linear search)
      - Tìm kiếm nhị phân (Binary search)
